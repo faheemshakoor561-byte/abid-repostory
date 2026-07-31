@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Teacher Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <!-- Header / Navbar Section -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <!-- Logo me aapki choti picture -->
+            <img src="myphoto.jpg.jpeg" alt="My Photo" class="logo-img">
+            <span>Portfolio</span>
+        </a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#work">Work</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to my Classroom,</h3>
+            <h1>Hi, I'm <span>Abid Ali</span></h1>
+            <h2>I am a passionate <span class="dynamic-text">Educator</span></h2>
+            <p>Inspiring young minds, fostering creativity, and building a foundation for lifelong learning through modern teaching methodologies.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+        <!-- Morphing Blob Shape behind content background style -->
+        <div class="home-img">
+            <div class="blob-shape"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-container">
+            <div class="about-content">
+                <h3>My Teaching Philosophy</h3>
+                <p>I believe that every student has a unique learning style. With over 5+ years of experience in education, my goal is to create an interactive, inclusive, and technology-driven environment where students feel motivated to explore and grow.</p>
+                <div class="about-cards">
+                    <div class="card">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h4>Education</h4>
+                        <p>M.Sc. in Education / B.Ed</p>
+                    </div>
+                    <div class="card">
+                        <i class="fa-solid fa-briefcase"></i>
+                        <h4>Experience</h4>
+                        <p>5+ Years in Teaching</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        
+        <div class="skills-main-container">
+            <!-- Skills me aapki badi picture -->
+            <div class="skills-image-side">
+                <img src="myphoto.jpg.jpeg" alt="My Photo">
+            </div>
+
+            <!-- Skills Progress Bars -->
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">Teaching Expertise</h3>
+                    <div class="skills-box">
+                        <div class="progress">
+                            <h3>Curriculum Development <span>90%</span></h3>
+                            <div class="bar"><span style="width: 90%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Classroom Management <span>95%</span></h3>
+                            <div class="bar"><span style="width: 95%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>E-Learning & Tech Tools <span>85%</span></h3>
+                            <div class="bar"><span style="width: 85%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-column">
+                    <h3 class="title">Core Subjects</h3>
+                    <div class="skills-box">
+                        <div class="progress">
+                            <h3>Mathematics <span>88%</span></h3>
+                            <div class="bar"><span style="width: 88%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Computer Science <span>92%</span></h3>
+                            <div class="bar"><span style="width: 92%;"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Science / Physics <span>80%</span></h3>
+                            <div class="bar"><span style="width: 80%;"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work / Methodology Section -->
+    <section class="work" id="work">
+        <h2 class="heading">My <span>Work & Methodology</span></h2>
+        <div class="work-container">
+            <div class="work-box">
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <h3>Interactive Lectures</h3>
+                <p>Using digital whiteboards, presentations, and live demonstrations to keep students engaged.</p>
+            </div>
+            <div class="work-box">
+                <i class="fa-solid fa-flask"></i>
+                <h3>Practical Projects</h3>
+                <p>Encouraging STEM activities, hands-on experiments, and real-world problem-solving assessments.</p>
+            </div>
+            <div class="work-box">
+                <i class="fa-solid fa-users-rectangle"></i>
+                <h3>Group Workshops</h3>
+                <p>Fostering teamwork, communication skills, and collaborative peer learning circles.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="subject" placeholder="Subject / Query" required>
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message for me..." required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Abid Ali | All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
